@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/vetores-gratis/icones-estilo-linear-minimal-web-e-elementos-do-negocio-social-media_1257-360.jpg?semt=ais_hybrid&w=740&q=80" type="image/x-icon">
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Outfit:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&display=swap);
+        body {
+            background-image: linear-gradient(to bottom, #0FBABD, #054142);
+            background-attachment: fixed;
+            font-family: "Playwrite NZ Basic", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        #cabecalho {
+            padding: 20px 10px;
+            font-size: 3em;
+        }
+        header {
+            text-align: center;
+        }
+        p {
+            font-weight: 700;
+            font-style: normal;
+            font-size: 1.3em;
+            padding: 0px 120px;
+        }
+        nav > a {
+            background-color:#0FBABD ;
+            padding: 10px 10px ;
+            border-radius: 10px;
+            margin: 20px;
+            border-style: ridge;
+            border-color: #000000;
+        }
+        nav > a:hover {
+            font-size: 1.5em;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+        }
+        main > section {
+            padding: 20px 0px;
+            background-color: #0C9294;
+            border-radius: 10px;
+            border-style: ridge;
+            border-color: #000000;
+            margin-top: 30px;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+        }
+        #instagram:hover{
+            background-image: linear-gradient(45deg, #EE08B4, #6C21F0,  #F51F6D, #F5B40A, #F14139);
+        }
+        #github:hover{
+            background-image: linear-gradient(to right, #000000, #ffff);
+        }
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #054142;
+            color: #13DBE0;
+            padding: 7px 3px;
+            border-style: ridge;
+            border-color: #000000;
+            display: inline-block;
+        }
+        h2 {
+            background-color: #054142;
+            width: fit-content;
+            border-radius: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+            padding: 0px 30px;
+            margin-left: 55px;
+        }
+        img {
+            border-radius: 20px;
+        }
+        li {
+            text-align: justify;
+        }
+        .espaco {
+            list-style-type: disc;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="cabecalho">Página pessoal</h1>
+        <p>Acesse os links</p>
+        <nav>
+            <a id="instagram"href="https://instagram.com/paulovitor__dev" target="_blank" rel="external">Meu Instagram</a>
+            <a id="github" href="https://www.linkedin.com/in/vitor-sousa-leite-b4a03a376" target="_blank" rel="external">Meu Github</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Informações</h2>
+            <article>
+                <ul>
+                    <li>
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="imagens/perfil-imagem3.png" type="image/png">
+                            <source media="(max-width: 1500px)" srcset="imagens/perfil-imagem.png" type="image/png">
+                            <img id="lateral" src="imagens/perfil-imagem2.png" alt="Uma imagem de perfil minha">
+                        </picture>
+                    </li>
+                    <li class="espaco"><strong>Nome</strong> - Paulo Vitor Souza Leite</li>
+                    <li class="espaco"><strong>Idade </strong>- 15 anos</li> 
+                    <li class="espaco"><strong>Futura profissão</strong> - Desenvolvendor Front-End</li>
+                    <li class="espaco"><strong>Nível</strong> - Iniciante</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

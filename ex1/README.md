@@ -1,8 +1,8 @@
-#Primeiro exercício
+# Primeiro exercício
 
 Projeto criado para praticar HTML E CSS
 
-##Conteúdos abordados
+## Conteúdos abordados
 
 - HTML semântico
 - Tipografia

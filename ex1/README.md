@@ -1,11 +1,13 @@
-#Primeiro exercício
+# Primeiro exercício
 ---
 Projeto criado para praticar HTML E CSS
 
-##Conteúdos abordados
+## Conteúdos abordados
 
-HTML semântico
+HTML **semântico**
 Tipografia
-Emoção das cores
+**Emoção** das cores
 Links e pseudo-classes
-Imagens responsivas
+Imagens **responsivas**
+
+---

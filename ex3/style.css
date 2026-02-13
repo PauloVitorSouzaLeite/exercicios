@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.ignorar {
+    display: none;
+}
+header {
+    text-align: center;
+}
+button {
+    padding: 7px 15px;
+    margin-top: 10px;
+}
+input {
+    border-radius: 10px;
+    size: auto;
+}
+input:hover {
+    font-size: 18px;
+}
+section {
+    font-size: 1.3em;
+}
+#message {
+    margin-bottom: 5px;
+}
+
+main {
+    background-color: #46BDBD;
+    padding: 70px;
+    width: fit-content;
+    margin: 0 auto;
+    border-style: double;
+    border-radius: 10px;
+}
+#name, #email, #message{
+    color: #194242;
+    font-weight: 900;
+}
+#name:hover , #email:hover, #message:hover {
+    text-decoration: underline;
+}

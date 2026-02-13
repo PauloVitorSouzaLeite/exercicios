@@ -50,7 +50,7 @@ main {
     border-style: double;
     border-radius: 10px;
 }
-#name, #email, #message{
+#name, #email, #message {
     color: #194242;
     font-weight: 900;
 }

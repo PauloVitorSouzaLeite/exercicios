@@ -14,4 +14,4 @@ Links e pseudo-classes
 
 Imagens **responsivas**
 
-
+OBS: Versão revisada do meu primeiro projeto após aprender box-model, box-shadow e refatoração de CSS.
